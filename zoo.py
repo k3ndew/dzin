@@ -11,4 +11,7 @@ class Animal:
         for key in statements.keys():
             if statements[key] == self.properties[key]:
                 Tstatements += 1
-            if
+            else:
+                Fstatements += 1
+
+
