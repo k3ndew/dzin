@@ -19,4 +19,10 @@ for i in range(len(data)):
         universe.add(name)
 isPlaying = True
 
+def ask(text):
+    temp = input(text)
+    if temp != "n" and temp != "i":
+        
+
 while isPlaying:
+    pass
